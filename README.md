@@ -89,13 +89,6 @@ jupyter notebook 第三题.ipynb
 # 运行全部单元格，图像将自动保存至 ./hopf_figs/
 ```
 
-也可直接以脚本形式运行：
-
-```bash
-jupyter nbconvert --to script 第三题.ipynb
-python 第三题.py
-```
-
 ---
 
 ## 代码说明

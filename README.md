@@ -6,6 +6,32 @@
 
 ---
 
+## 环境要求
+
+- **开发环境**：Python 3.14.4
+- **运行环境**：Jupyter Notebook
+- **依赖库**：numpy, matplotlib, scipy, os, platform
+- （版本见 requirements.txt）
+
+安装第三方依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+## 运行方法
+
+使用 Jupyter Notebook**
+
+```bash
+jupyter notebook 第三题.ipynb
+```
+
+打开后，点击菜单栏 **Cell → Run All** 运行全部代码，图像将自动保存至 ./hopf_figs/
+
+---
+
 ## 数学模型
 
 系统由以下两个耦合常微分方程描述：
@@ -66,31 +92,6 @@ $$\tau_I \frac{dv_I}{dt} = -v_I + [M_{IE} v_E - M_{II} v_I + h_I]_+$$
 
 ---
 
-## 环境要求
-
-- **开发环境**：Python 3.14.4
-- **运行环境**：Jupyter Notebook
-- **依赖库**：numpy, matplotlib, scipy, os, platform
-- （版本见 requirements.txt）
-
-安装第三方依赖：
-
-```bash
-pip install -r requirements.txt
-```
-
----
-## 运行方法
-
-使用 Jupyter Notebook**
-
-```bash
-jupyter notebook 第三题.ipynb
-```
-
-打开后，点击菜单栏 **Cell → Run All** 运行全部代码，图像将自动保存至 ./hopf_figs/
-
----
 
 ## 代码说明
 
